@@ -23,7 +23,7 @@
         width: 400px;
     }
     .copiar{
-        margin: 10px
+        margin: 10px;
     }
 }
 
@@ -79,6 +79,7 @@
         width: 300px;
     }
     .copiar{
+        width: 100px;
         margin: 2px;
     }
 }
