@@ -22,6 +22,9 @@
     .Texto{
         width: 400px;
     }
+    .copiar{
+        margin: 10px
+    }
 }
 
 
@@ -75,5 +78,7 @@
     .Texto{
         width: 300px;
     }
-
+    .copiar{
+        margin: 2px;
+    }
 }
