@@ -1,0 +1,141 @@
+*{
+    font-family:  sans-serif;
+}
+body{
+    background-color: rgba(238, 132, 12, 0.39);
+}
+.container{
+    width: 1100px;
+    height: 550px;
+}
+
+h1{
+    position: relative;
+    left: 70px;
+    bottom: 60px;
+}
+
+.message{
+    width: 800px;
+    height: 200px;
+    position: relative;
+    margin: 50px 200px  auto;
+    padding: 0px 0px 0px 0px;
+}
+
+.answers{
+    width: 400px;
+    height: 550px;
+    position: relative;
+    top: -540px;
+    left: 900px;
+    border-radius: 0;
+    transition-duration: 1s;
+    background-color: rgb(204, 197, 197);
+}
+
+.answers:hover{
+    border-radius: 32px;
+    box-shadow: 4px 4px 30px 3px black;
+    background-color: aquamarine;
+}
+
+.Texto{
+    background: none;
+    border: none;
+    font-size: 20px;
+    width: 577px;
+    height: 60px;
+}
+
+.encriptado{
+    position: relative;
+    width: 290px;
+    height: 400px;
+    font-size: 20px;
+    margin: 20px 0px 0px 50px;
+    background: none;
+    border: none;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    background-image: url("IMG/logo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    transition-duration: 1s;
+}
+.logo:hover{
+    box-shadow: 2px 2px 10px 5px #fff;
+    animation: 1.5s move 1;
+    backface-visibility: visible;
+}
+
+.buttons{
+    width: 100%;
+    position: relative;
+    margin: 150px 170px auto;
+}
+button{
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+
+.number1{
+    background-color: blue;
+    margin: 0px 20px;
+}
+.number2{
+    background-color: rgba(95, 106, 173, 0.616);
+}
+
+.number1:hover{
+    box-shadow: 3px 4px 20px 4px black;
+    transition-duration: 0.5s;
+}
+
+.number2:hover{
+    box-shadow: 3px 4px 20px 4px black;
+    transition-duration: 0.5s;
+}
+
+.copiar{
+    background-color: #65cdf7;
+    text-align: center;
+    font-size: 20px;
+    margin: 5% 25%;
+}
+.copiar:hover{
+    box-shadow: 4px 2px 10px 2px black;
+    transition-duration: 0.8s;
+    color: rgb(208, 255, 0);
+}
+
+@keyframes move{
+    40%{
+        transform: perspective(300px)
+                    translateZ(120px)
+                    rotateY(170deg);
+    }
+    50%{
+        transform: perspective(300px)
+                    translateZ(120px)
+                    rotateY(170deg);
+    }
+    80%{
+        transform: perspective(300px)
+                    translateZ(0px)
+                    rotateY(360deg);
+    }
+    100%{
+        transform: perspective(300px)
+                    translateZ(120px)
+                    rotateY(360deg);
+    }
+}

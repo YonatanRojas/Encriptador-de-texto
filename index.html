@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index">
+    <meta name="keywords" content="encriptador,pagina que oculta mensajes, ocultar mensajes">
+    <meta name="description" content="Un encriptador de textos que te ayudaran a ocultar tus mensajes de otras personas y que solo podran descubrir lo que dice si entran a esta pagina y lo desencriptan con el boton asignado.">
+    <meta name="author" content="Yonatan Rojas">
+    <meta name="robots" content="follow">
+    <title>Encriptador</title>
+    <link rel="stylesheet" type="text/css" href="encriptadorTexto.css">
+    <link rel="stylesheet" type="text/css" href="encriptadoResponsive.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo"></div>
+        <h1>Encriptador de Textos</h1>
+
+        <div class="message">
+            <textarea class="Texto" type="text" placeholder="Ingrese el texto aqui" alt=""></textarea>
+        </div>
+        <div class="buttons">
+            <button class="button number1" onclick="encriptacion()">Encriptar</button>
+            <button class=" button number2" onclick="desencriptacion()">Desencriptar</button>
+        </div>
+
+        <div class="answers">
+            <textarea class="encriptado" type="text" ></textarea>
+
+            <button class="copiar" onclick="copiar()">Copiar</button>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="encriptadorTexto.js"></script>
+    <script type="text/javascript" src="block.js"></script>
+</body>
+</html>
